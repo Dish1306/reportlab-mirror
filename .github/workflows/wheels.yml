@@ -94,7 +94,7 @@ jobs:
       - uses: actions/setup-python@v2
         with:
           python-version: 3.9
-      - name: Build Wheel
+      - name: Build Wheels
         env:
           CITOOLS_USER: "${{secrets.CITOOLS_USER}}"
           CITOOLS_PASSWORD: "${{secrets.CITOOLS_PASSWORD}}"
